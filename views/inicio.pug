@@ -1,0 +1,28 @@
+extends ./layout/index
+block slider 
+    .slider 
+        h1 Rio de Janeiro 
+        em Vacaciones 
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5 
+            .col-md-6
+                p  Nuestro proyecto de posicionarnos en el mercado del turismo es con el propósito de ofrecer lo que el viajero actual está buscando, rapidez y la organización de un viaje que desde el inicio sea el reflejo de la preocupación y asesoría personalizada.Hemos sabido reconocer que es lo que hace de un producto turístico una Experiencia de Viaje diferente y que es lo que están buscando los viajeros del día de hoy, en función de la constante innovación de productos, ofertas de temporadas, Tanto en Caribe como en Sudamérica, Europa Destinos lejanos y exóticos.
+                p  Después de casi dos años sujetos a restricciones de movimientos, todos tenemos más ganas de viajar que nunca. Si quieres alejarte del turismo de masas puedes dejarte guiar por las propuestas de Lonely Planet. El sello de viajes eligió recientemente treinta destinos (diez países, regiones y ciudades) repletos de lugares fascinantes, tanto cercanos como lejanos, perfectos para descubrir este año.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg",alt="imagen nosotros",class="img-fluid")
+        include ./layout/bloque_viajes
+    .descuento 
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Grecia
+                        p.fecha 20 de Diciembre de 2022
+                        p.precio $39000
+    .container 
+        h2.mt-5.text-center Testimoniales 
+        include ./layout/bloque_testimoniales
+           
